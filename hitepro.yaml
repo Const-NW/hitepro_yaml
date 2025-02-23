@@ -148,7 +148,8 @@ light:
     model: "Relay-F2"
     name: "Relay-F2"
     serial_number: "C49D815E"
-    
+
+### RGBW with BUGs!!! ###    
 - unique_id: "Relay-RGBW_AC1B95DE_1_brightness"
   name: "Relay-RGBW_AC1B95DE_1_brightness"
   brightness_state_topic: "/devices/hite-pro/controls/Relay-RGBW_AC1B95DE_1_brightness"
