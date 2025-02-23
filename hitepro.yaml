@@ -1,0 +1,359 @@
+button:
+
+- unique_id: "Reload"
+  name: "Reload"
+  command_topic: "/devices/hite-pro/controls/Reload/on"
+  payload_press: "1"
+  device_class: update
+  entity_category: "config"
+  qos: "0"
+  retain: false
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Gateway"
+    manufacturer: "HiTE-PRO"
+    model: "Gateway"
+    name: "Gateway"
+    #serial_number: "XXXXXXX"
+
+switch:
+
+- unique_id: "Relay-4M_5830B037_1"
+  name: "Relay-4M_5830B037_1"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_1"
+  command_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_1/on"
+  payload_on: "1"
+  payload_off: "0"
+  state_on: "1"
+  state_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+
+- unique_id: "Relay-4M_5830B037_2"
+  name: "Relay-4M_5830B037_2"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_2"
+  command_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_2/on"
+  payload_on: "1"
+  payload_off: "0"
+  state_on: "1"
+  state_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+    
+- unique_id: "Relay-4M_5830B037_3"
+  name: "Relay-4M_5830B037_3"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_3"
+  command_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_3/on"
+  payload_on: "1"
+  payload_off: "0"
+  state_on: "1"
+  state_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+
+- unique_id: "Relay-4M_5830B037_4"
+  name: "Relay-4M_5830B037_4"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_4"
+  command_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_4/on"
+  payload_on: "1"
+  payload_off: "0"
+  state_on: "1"
+  state_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+
+- unique_id: "Relay-1_20B0FD98_1"
+  name: "Relay-1_20B0FD98_1"
+  state_topic: "/devices/hite-pro/controls/Relay-1_20B0FD98_1"
+  command_topic: "/devices/hite-pro/controls/Relay-1_20B0FD98_1/on"
+  payload_on: "1"
+  payload_off: "0"
+  state_on: "1"
+  state_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-1_20B0FD98"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-1"
+    name: "Relay-1"
+    serial_number: "20B0FD98"
+
+light:
+
+- unique_id: "Relay-F2_C49D815E_1"
+  name: "Relay-F2_C49D815E_1"
+  state_topic: "/devices/hite-pro/controls/Relay-F2_C49D815E_1"
+  command_topic: "/devices/hite-pro/controls/Relay-F2_C49D815E_1/on"
+  payload_on: 1
+  payload_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-F2_C49D815E"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-F2"
+    name: "Relay-F2"
+    serial_number: "C49D815E"
+
+- unique_id: "Relay-F2_C49D815E_2"
+  name: "Relay-F2_C49D815E_2"
+  state_topic: "/devices/hite-pro/controls/Relay-F2_C49D815E_2"
+  command_topic: "/devices/hite-pro/controls/Relay-F2_C49D815E_2/on"
+  payload_on: "1"
+  payload_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-F2_C49D815E"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-F2"
+    name: "Relay-F2"
+    serial_number: "C49D815E"
+    
+- unique_id: "Relay-RGBW_AC1B95DE_1_brightness"
+  name: "Relay-RGBW_AC1B95DE_1_brightness"
+  brightness_state_topic: "/devices/hite-pro/controls/Relay-RGBW_AC1B95DE_1_brightness"
+  brightness_command_topic: "/devices/hite-pro/controls/Relay-RGBW_AC1B95DE_1_brightness/on"
+  command_topic: "/devices/hite-pro/controls/Relay-RGBW_AC1B95DE_1_brightness/on"
+  rgb_state_topic: "/devices/hite-pro/controls/Relay-RGBW_AC1B95DE_1_rgb"
+  rgb_value_template: "{{ value|regex_replace(find=',', replace=';', ignorecase=False) }}"
+  rgb_command_topic: "/devices/hite-pro/controls/Relay-RGBW_AC1B95DE_1_rgb/on"
+  rgb_command_template: "{{ value|regex_replace(find=',', replace=';', ignorecase=False) }}"
+  brightness_scale: "100"
+  on_command_type: "first"
+  payload_on: "1"
+  payload_off: "0"
+  optimistic: false
+  qos: "0"
+  retain: true
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-RGBW_AC1B95DE"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-RGBW"
+    name: "Relay-RGBW"
+    serial_number: "AC1B95DE"
+
+sensor:
+
+- unique_id: "Smart-Motion_9A93A9A9_illumination"
+  name: "Smart-Motion_9A93A9A9_illumination"
+  state_topic: "/devices/hite-pro/controls/Smart-Motion_9A93A9A9_illumination"
+  device_class: "illuminance"
+  unit_of_measurement: "%"
+  force_update: True
+  value_template: "{{ value|regex_replace(find='%', replace='', ignorecase=False) }}"
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Smart-Motion_9A93A9A9"
+    manufacturer: "HiTE-PRO"
+    model: "Smart-Motion"
+    name: "Smart-Motion"
+    serial_number: "9A93A9A9"
+
+- unique_id: "Smart-Motion_9A93A9A9_illumination_battery"
+  name: "Smart-Motion_9A93A9A9_illumination_battery"
+  state_topic: "/devices/hite-pro/controls/Smart-Motion_9A93A9A9_illumination_battery"
+  device_class: "voltage"
+  unit_of_measurement: "V"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Smart-Motion_9A93A9A9"
+    manufacturer: "HiTE-PRO"
+    model: "Smart-Motion"
+    name: "Smart-Motion"
+    serial_number: "9A93A9A9"
+
+- unique_id: "Smart-Motion_9A93A9A9_motion_battery"
+  name: "Smart-Motion_9A93A9A9_motion_battery"
+  state_topic: "/devices/hite-pro/controls/Smart-Motion_9A93A9A9_motion_battery"
+  device_class: "voltage"
+  unit_of_measurement: "V"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Smart-Motion_9A93A9A9"
+    manufacturer: "HiTE-PRO"
+    model: "Smart-Motion"
+    name: "Smart-Motion"
+    serial_number: "9A93A9A9"
+
+- unique_id: "Relay-4M_5830B037_1_temperatureMK"
+  name: "Relay-4M_5830B037_4"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_1_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+
+- unique_id: "Relay-4M_5830B037_2_temperatureMK"
+  name: "Relay-4M_5830B037_4"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_2_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+
+- unique_id: "Relay-4M_5830B037_3_temperatureMK"
+  name: "Relay-4M_5830B037_4"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_3_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+
+- unique_id: "Relay-4M_5830B037_4_temperatureMK"
+  name: "Relay-4M_5830B037_4"
+  state_topic: "/devices/hite-pro/controls/Relay-4M_5830B037_4_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-4M_5830B037"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "5830B037"
+
+- unique_id: "Relay-F2_C49D815E_1_temperatureMK"
+  name: "Relay-F2_C49D815E_1_temperatureMK"
+  state_topic: "/devices/hite-pro/controls/Relay-F2_C49D815E_1_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-F2_C49D815E"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "C49D815E"
+
+- unique_id: "Relay-F2_C49D815E_2_temperatureMK"
+  name: "Relay-F2_C49D815E_2_temperatureMK"
+  state_topic: "/devices/hite-pro/controls/Relay-F2_C49D815E_2_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-F2_C49D815E"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "C49D815E"
+
+- unique_id: "Relay-F2_C49D815E_2_temperatureMK"
+  name: "Relay-F2_C49D815E_2_temperatureMK"
+  state_topic: "/devices/hite-pro/controls/Relay-F2_C49D815E_2_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-F2_C49D815E"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-4M"
+    name: "Relay-4M"
+    serial_number: "C49D815E"
+
+- unique_id: "Relay-RGBW_AC1B95DE_1_brightness_temperatureMK"
+  name: "Relay-RGBW_AC1B95DE_1_brightness_temperatureMK"
+  state_topic: "/devices/hite-pro/controls/Relay-RGBW_AC1B95DE_1_brightness_temperatureMK"
+  device_class: "temperature"
+  unit_of_measurement: "°C"
+  force_update: True
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Relay-RGBW_AC1B95DE"
+    manufacturer: "HiTE-PRO"
+    model: "Relay-RGBW"
+    name: "Relay-RGBW"
+    serial_number: "AC1B95DE"
+
+binary_sensor:
+
+- unique_id: "Smart-Motion_9A93A9A9_motion"
+  name: "Smart-Motion_9A93A9A9_motion"
+  state_topic: "/devices/hite-pro/controls/Smart-Motion_9A93A9A9_motion"
+  payload_on: "1"
+  payload_off: "0"
+  device_class: "motion"
+  qos: "0"
+  device:
+    configuration_url: "http://hitepro.local/"
+    identifiers: "Smart-Motion_9A93A9A9"
+    manufacturer: "HiTE-PRO"
+    model: "Smart-Motion"
+    name: "Smart-Motion"
+    serial_number: "9A93A9A9"
