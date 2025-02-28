@@ -1,5 +1,6 @@
 button:
 
+# принудительное обновление сервером данных
 - unique_id: "Reload"
   name: "Reload"
   command_topic: "/devices/hite-pro/controls/Reload/on"
@@ -358,6 +359,8 @@ binary_sensor:
     model: "Smart-Motion"
     name: "Smart-Motion"
     serial_number: "9A93A9A9"
+
+# Датчики, отсутствующие у меня, но предоставленные другим пользователем Illmouse ( https://community.home-assistant.io/u/illmouse/ ) со своего конфига
 
 #binary_sensor:
 
